@@ -43,7 +43,7 @@ $(document).ready(function ($) {
         //console.log(data);
         $('#example').dataTable({
             "paging": true,
-            "pageLength": 2,
+            "pageLength": 1,
             processing: true,
             serverSide: false,
             "data": data.data,
